@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="ShioTV" />
+    <meta
+      name="description"
+      content="Messenger is used to send messages and exchange photos, videos, stickers, audio, and files, and also react to other users' messages and interact with bots. The service also supports voice and video calling."
+    />
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Messenger</title>
+  </head>
+  <body>
+    <!-- ჰედერი (Header) -->
+    <header class="header">
+      <nav class="nav-container">
+        <a href="#">
+          <img
+            src="./assets/icon.png"
+            alt="Logo"
+            width="40rem"
+            height="40rem"
+          />
+        </a>
+        <ul class="nav-tabs-container">
+          <!-- Burger Menu -->
+          <img
+            class="burger-icon"
+            src="./assets/burger.256.png"
+            alt="Burger_menu"
+            width="45px"
+            height="45px"
+          />
+          <li class="nav-item"><a href="./html/users.html">Users</a></li>
+
+          <li class="nav-item"><a href="">Features</a></li>
+
+          <li class="nav-item"><a href="">Desktop App</a></li>
+
+          <li class="nav-item"><a href="">Privacy & Safety</a></li>
+
+          <li class="nav-item"><a href="">For Developers</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- მთავარი (Main) -->
+    <main>
+      <section class="main-container">
+        <!-- სათაურის მხარე (Title Side) -->
+        <div class="title-side">
+          <h1 class="big-title">
+            Hang out<br />
+            anytime,<br />
+            anywhere
+          </h1>
+
+          <p>
+            Messenger makes it easy and fun to stay close to your <br />
+            favorite people.
+          </p>
+          <!-- მომხმარებლის შესავსები ველები (Form Side) -->
+          <div class="Form">
+            <form>
+              <label for="e-mail"></label>
+              <input
+                type="text"
+                id="e-mail"
+                name="e-mail"
+                placeholder="Email or phone number"
+              />
+              <label for="password"></label>
+
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Password"
+              />
+
+              <a href="#"><button>შესვლა</button></a>
+              <a href="#">დაგავიწყდათ პაროლი?</a>
+              <div class="stayin">
+                <input type="checkbox" name="stayin" id="stayin" />
+                <label for="stayin">Keep me signed in</label>
+              </div>
+            </form>
+          </div>
+          <div class="download">
+            <a href="#"><img src="./assets/appstore.png" alt="Appstory" /> </a>
+            <a href="#"
+              ><img src="./assets/microsoft.png" alt="Microsoft Story" />
+            </a>
+          </div>
+        </div>
+        <!-- ფოტოს მხარე (Picture Side) -->
+        <div class="picture-side">
+          <img src="./assets/messenger.png" alt="messenger" class="mess-pic" />
+        </div>
+      </section>
+    </main>
+    <!-- ფუტერი (Footer) -->
+    <footer>
+      <div class="footer">
+        <center>
+          <span>
+            <b>&copy;&nbsp;Meta&nbsp;2023.</b>
+          </span>
+          <span>
+            The Apple and Google Play Logos are trademarks of theier respective
+            owners.
+          </span>
+        </center>
+        <div class="foot-nav">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookie Policy</a>
+          <a href="#">Terms</a>
+          <img src="./assets/meta.png" alt="MetaInc" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

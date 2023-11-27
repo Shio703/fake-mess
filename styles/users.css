@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* უკან მთავარ გვერდზე დამაბრუნებელი ღილაკის სტილები */
+#back-btn {
+  width: 5em;
+  color: #30c01cc9;
+  background-color: #f3eeee;
+  border: none;
+  border-radius: 15px;
+  margin: 1.1em 0 0 1.1em;
+  padding: 8px;
+  font-size: 17px;
+}
+
+#back-btn:hover {
+  color: white;
+  background-color: #30c01cc9;
+  cursor: pointer;
+}
+/* ბარათების სექციის სტილები */
+.users-sec {
+  padding-top: 2.5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+/* თვითონ ბარათების სტილები */
+.user-card {
+  display: flex;
+  max-width: 250px;
+  min-width: 240px;
+  max-height: 500px;
+  /* მინიმალური სიმაღე შეიძლება შევცვალო!!! */
+  min-height: 300px;
+  background: linear-gradient(0deg, #f3eeee 73%, #30c01cc9 30%);
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  border-radius: 5px;
+  border: 0.8px solid #30c01cc9;
+}
+/* ბარათში არსებული კონტენტის სტილები */
+.profile-img {
+  max-width: 85px;
+  border: 4px solid white;
+  border-radius: 50%;
+  margin-top: 30px;
+  background-color: white;
+}
+
+.user-card > h3 {
+  margin: 20px 0 20px 0;
+}
+
+.user-card > p {
+  text-align: center;
+}
+
+.profile-links {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.profile-links > img {
+  max-width: 25px;
+  border-radius: 15px;
+}
+
+.link {
+  max-width: 25px;
+}
+.little-info {
+  margin-bottom: 10px;
+}
+.little-info2 {
+  margin-bottom: 10px;
+}
+.little-info3 {
+  margin-bottom: 17px;
+}
+
+/* მოდალის სტილები */
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-window {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+.modal-window > h2 {
+  margin-bottom: 0.5em;
+}
+#close-modal {
+  margin-top: 0.7em;
+  border: none;
+  padding: 0.4em;
+  border-radius: 8px;
+  color: #30c01cc9;
+  cursor: pointer;
+}
+
+#close-modal:hover {
+  background-color: #30c01cc9;
+  color: white;
+}

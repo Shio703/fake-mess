@@ -64,8 +64,6 @@ a {
 }
 .picture-side {
   display: flex;
-  position: relative;
-  width: 40.5rem;
   height: auto;
 }
 .mess-pic {
@@ -80,7 +78,7 @@ a {
     #ff5280 84.07%,
     #ff7061 90.59%
   );
-  -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   display: inline-block;
   font-size: 60px;
@@ -137,6 +135,7 @@ a {
 }
 .footer {
   margin-top: 5rem;
+  padding: 0 10px 10px;
 }
 .foot-nav {
   display: flex;
@@ -166,9 +165,5 @@ a {
   .burger-icon {
     display: flex;
     align-items: center;
-  }
-  .mess-pic{
-    width: 450px;
-    transform: translateX(150px);
   }
 }
